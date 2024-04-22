@@ -1,0 +1,11 @@
+
+
+compile:
+
+md build
+cd build
+
+
+linux
+../build$ cmake .. -DPROJ=kpu -DTOOLCHAIN=/home/sandra/source/k210/kendryte-toolchain/bin && make
+
